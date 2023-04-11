@@ -1,0 +1,51 @@
+:root {
+	box-sizing: border-box;
+}
+
+html, body, * {
+	margin: 0;
+	padding: 0;
+	background-color: grey;
+}
+
+#app {
+	height: 100vh;
+}
+
+.menu {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 0 auto;
+	border: 3px solid blanchedalmond;
+	width: 400px;
+	height: 400px;
+	text-align: center;
+}
+
+.game {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.pilihan {
+	width: 30%;
+	margin: 10px 15px;
+	padding: 25px;
+	text-align: center;
+	font-size: 40px;
+	background-color: blue;
+	border-radius: 50px;
+}
+
+.pilihan:hover {
+	cursor: pointer;
+	background-color: darkblue;
+	transform: scale(105%);
+}
+
+.title {
+	color: black;
+}
